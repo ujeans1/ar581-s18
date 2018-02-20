@@ -1,0 +1,28 @@
+*,
+*:before
+*:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+h5 {
+    margin-left: 400px;
+    width: 100px;
+    letter-spacing: 30px;
+}
+
+h6 {
+    margin-left: 400px;
+    width: 100px;
+}
+
+p {
+    margin-left: 400px;
+    display: inline;
+    font-family: monospace
+}
+
+div {
+    margin-left:500px;
+}

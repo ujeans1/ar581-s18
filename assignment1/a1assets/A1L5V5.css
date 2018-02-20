@@ -1,0 +1,35 @@
+*,
+*:before
+*:after {
+    
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.spikes {
+    margin-left: 200px;
+    background: ; 
+    width: 430px;
+    font-family: courier;
+    font-size: 10px;
+}
+
+p {
+    margin-left: 800px;
+    font-family: courier
+}
+
+h1 {
+    margin-left: 500px;
+    font-family: courier
+}
+
+h3 {
+    margin-left: 500px;
+    font-family: courier
+}
+
+section{
+    font-family: courier
+}

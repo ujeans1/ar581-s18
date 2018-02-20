@@ -1,0 +1,24 @@
+*,
+*:before
+*:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+h1 {
+    margin-left: 500px;
+    width: 400px;
+    font-size: 100px;
+    text-align: center
+}
+
+p {
+    margin-left: 600px;
+    display: inline;
+}
+
+div {
+    margin-left: 800px;
+    font-family: helvetica;
+}

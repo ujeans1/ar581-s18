@@ -1,0 +1,24 @@
+*,
+*:before
+*:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+h1 {
+    margin:200px;
+    padding-left: 200px;
+    font-size: 60px;
+    
+}
+p {
+    margin-left: 500px;
+    font-weight: 500;
+    
+}
+
+.third{
+    margin-left: 400px;
+    font-size: 10px;
+}

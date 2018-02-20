@@ -1,0 +1,28 @@
+*,
+*:before
+*:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+span {
+    margin-left: 100px;
+    width: 960px;
+    font-family: courier;
+    letter-spacing: 20px;
+}
+
+p {
+    margin-left: 1000px;
+    display: inline;
+    font-family: courier;
+    line-height: 20px
+}
+
+div {
+    margin-left:2000px;
+    margin-top:800px;
+    font-family: courier;
+    font-size: 11px;
+}

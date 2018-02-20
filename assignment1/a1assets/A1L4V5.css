@@ -1,0 +1,32 @@
+*,
+*:before
+*:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+h1 {
+    margin-left: 400px;
+    margin-bottom: 400px;
+    font-family: "Courier New";
+}
+span {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+div {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    display: inline-block;
+    letter-spacing: 4px;
+}
+
+h3 {
+    margin-left: 400px;
+    font-size: 70px;
+}
+
