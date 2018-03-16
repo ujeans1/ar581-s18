@@ -23,6 +23,9 @@ p {
     font-family: monospace
 }
 
+.body {
+    margin-top: 400px;
+}
 div {
     margin-left:500px;
 }

@@ -7,29 +7,58 @@
             box-sizing: border-box;
 }
 
-.spikes {
-    margin-left: 200px;
-    background: ; 
-    width: 430px;
-    font-family: courier;
-    font-size: 10px;
+body{
+    background: black;
 }
-
-p {
-    margin-left: 800px;
-    font-family: courier
-}
-
 h1 {
-    margin-left: 500px;
-    font-family: courier
+    color: ghostwhite;
+    margin: auto;
+    width: 50%;
+    font-size: 60px;
+    text-align: center
+}
+.poemp1{
+    color: ghostwhite;
+    width: 30%; 
+    margin: auto;
+    text-align: center;
+   
+}
+.poemp2{
+    color: ghostwhite;
+    width: 30%; 
+    margin: auto;
+    text-align: center;
+    
 }
 
-h3 {
-    margin-left: 500px;
-    font-family: courier
+.poemend{
+    color: ghostwhite;
+    width: 30%; 
+    margin: auto;
+    text-align: center;
+    
 }
-
-section{
-    font-family: courier
+.stars{
+    color: ghostwhite;
+    font-family: monospace;
+    font-size: 5px;
+    display: inline;
+    margin-right: 1%;
+    margin-left:1%;
+    margin-top: 1%;
+    margin-bottom:1%;
+    position: relative;
+    float: left;
+    animation-duration: .5s;
+    animation-name: shaking;
+    animation-iteration-count: infinite;
+}
+   
+@keyframes shaking {
+    0%   {left:0px; top:0px;}
+    25%  {left:1px; top:0px;}
+    50%  {left:1px; top:1px;}
+    75%  {left:0px; top:1px;}
+    100% {left:0px; top:0px;}
 }

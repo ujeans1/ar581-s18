@@ -13,6 +13,7 @@ h2 {
 span {
     margin-left: 300px;
     margin-right: 300px;
+
 }
 
 div {
@@ -21,8 +22,15 @@ div {
     margin-right: 0px;
     margin-bottom: 100px;
     display: block;
+    border: dotted;
+    padding: 100px;
 }
 
 p {
     margin-left: 1000px;
+    border: solid;
+    border-color: firebrick
+    padding: 80px;
+    padding-top: 180px; 
+    padding-bottom: 180px;
 }

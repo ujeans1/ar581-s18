@@ -6,28 +6,30 @@
             box-sizing: border-box;
 }
 
-span {
-    margin-left: 100px;
-    width: 960px;
-    font-family: courier;
-    letter-spacing: 3px;
-    background:red;
+.sideways {
+    font-family: Helvetica;
+    font-size: 14px;
+    height: 50%;
+    margin: auto;
+    text-align: center;
 }
 
-p {
-    margin-left: 1000px;
-    display: block;
-    font-family: courier;
-    background: yellow;
-    line-height: 20px
-    }
-
-div {
-    margin-left: 2000px;
-    margin-top: 0px;
-    width: 40px;
-    background: aqua;
-    font-family: courier;
-    font-size: 11px;
+.caution {
+    height: 0;
+    width: 0;
+    float: right;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 700px solid black;
+    border-top: 50px solid transparent;
 }
 
+.cautiona {
+    height: 0;
+    width: 0;
+    float: left;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-top: 700px solid black;
+}

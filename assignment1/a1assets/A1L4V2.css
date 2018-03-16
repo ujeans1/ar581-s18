@@ -7,14 +7,16 @@
 }
 
 h1 {
+    line-height: 50%;
     margin-left: 500px;
     width: 400px;
     font-size: 100px;
     text-align: center
+    
 }
 
 p {
-    margin-left: 600px;
+    margin: auto;
     display: inline;
 }
 

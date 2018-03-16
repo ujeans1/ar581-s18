@@ -9,17 +9,24 @@
 
 h3 {
     text-align: center;
-    width: 1000px;
+    width: 50%;
+    margin:auto;
 }
 nav {
     font-size: 14px; 
 }
 
 p{
+    width:50%;
+    margin: auto;
     text-align: center;
 }
 
-div {
+.one {
     display: inline-block;
-    padding: 20px;
+}
+.wrapping {
+    text-align: center;
+    width: 50%;
+    margin: auto;
 }

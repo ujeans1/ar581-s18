@@ -6,19 +6,271 @@
             box-sizing: border-box;
 }
 
+body{ 
+    background-color: black;
+    
+}
+
 h1 {
-    margin:200px;
-    padding-left: 200px;
+    color: white;
+    margin: auto;
+    width: 50%;
     font-size: 60px;
+    text-align: center
     
 }
 p {
-    margin-left: 500px;
+    color: black;
+    margin: auto;
+    width: 50%;
+    text-align: center;
     font-weight: 500;
     
 }
 
-.third{
-    margin-left: 400px;
+.first{
+    color: black;
+    margin: auto;
+    width: 50%;
+    text-align: center;
     font-size: 10px;
+    position: relative;
+    animation-duration: 6s;
+    animation-name: slidein1;
+}
+   
+    @keyframes slidein1 {
+  from {
+    margin-left: 100%;
+    width: 200%; 
+  }
+
+  to {
+      color: white;
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.second{
+    color: black;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    animation-duration: 6s;
+    animation-name: slidein2;
+    animation-delay: 2s;
+}
+   
+    @keyframes slidein2 {
+  from {
+    margin-left: 0%;
+    width: 0%; 
+  }
+
+  to {
+      color: white;
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.third{
+    color: black;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    animation-duration: 6s;
+    animation-name: slidein3;
+    animation-delay: 4s;
+}
+   
+    @keyframes slidein3 {
+  from {
+    margin-left: 100%;
+    width: 200%; 
+  }
+
+  to {
+      color: white;
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.fourth{
+    color: black;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    animation-duration: 6s;
+    animation-name: slidein4;
+    animation-delay: 6s;
+}
+   
+    @keyframes slidein4 {
+  from {
+      color: white;
+    margin-left: 0%;
+    width: 0%; 
+  }
+
+  to {
+      color: white;
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.fifth{
+    color: black;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    animation-duration: 6s;
+    animation-name: slidein5;
+    animation-delay: 8s;
+}
+   
+    @keyframes slidein5 {
+  from {
+    margin-left: 100%;
+    width: 200%; 
+  }
+
+  to {
+      color: white;
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.sixth{
+    color: black;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    animation-duration: 6s;
+    animation-name: slidein6;
+    animation-delay: 10s;
+}
+   
+    @keyframes slidein6 {
+  from {
+    margin-left: 0%;
+    width: 0%; 
+  }
+
+  to {
+      color: white;
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.seventh{
+    color: black;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    animation-duration: 6s;
+    animation-name: slidein7;
+    animation-delay: 12s;
+}
+   
+    @keyframes slidein7 {
+  from {
+    margin-left: 100%;
+    width: 200%; 
+  }
+
+  to {
+      color: white;
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.eighth{
+    color: black;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    animation-duration: 6s;
+    animation-name: slidein8;
+    animation-delay: 14s;
+}
+   
+    @keyframes slidein8 {
+  from {
+    margin-left: 0%;
+    width: 0%; 
+  }
+
+  to {
+      color: white;
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.ninth{
+    color: black;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 10px;
+    position: relative;
+    animation-duration: 6s;
+    animation-name: slidein9;
+    animation-delay: 16s;
+}
+   
+    @keyframes slidein9 {
+  from {
+    margin-left: 100%;
+    width: 200%; 
+  }
+
+  to {
+      color: white;
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.tenth{
+    color: black;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 100px;
+    position: relative;
+    animation-duration: 6s;
+    animation-name: slidein10;
+    animation-delay: 20s;
+}
+   
+    @keyframes slidein10 {
+  from {
+    color: black;
+  }
+
+  to {
+    color: white;
+  }
 }

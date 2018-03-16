@@ -6,19 +6,143 @@
             box-sizing: border-box;
 }
 
+body{
+    background: black;
+}
+
 h1 {
-    margin-left: 600px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
     font-size: 50px;
     font-family: Times
 }
 
-p{
-    margin-left: 600px;
-    padding-right: 0px;
-    margin-right: auto;
-    font-family: Times;
+
+.second{
     display: block;
-    width: 44px;
-    background: teal
+    background: white;
+    float:left;
+    height: 100%;
+    width:14.28%;
+    font-family: Times;
+    font-size: 35px;
+    text-align: center;
+    line-height: 140%; 
 }
 
+.third{
+    display: block;
+    height: 100%;
+    background: yellow;
+    float: left;
+    height: 100%;
+    width:14.28%;
+    font-family: Times;
+    font-size: 35px;
+    text-align: center;
+    line-height: 140%; 
+    
+}
+
+.fourth{
+    display: block;
+    height: 100%;
+    background: aqua;
+    float: left;
+    height: 100%;
+    width:14.28%;
+    font-family: Times;
+    font-size: 35px;
+    text-align: center;
+    line-height: 140%; 
+    
+}
+
+.fifth{
+    display: block;
+    height: 100%;
+    background: lime;
+    float: left;
+    width:14.28%;
+    font-family: Times;
+    font-size: 35px;
+    text-align: center;
+    line-height: 140%; 
+}
+.sixth{
+    display: block;
+    height: 100%;
+    background: magenta;
+    float: left;
+    width:14.28%;
+    font-family: Times;
+    font-size: 35px;
+    text-align: center;
+    line-height: 140%; 
+}
+.seventh{
+    display: block;
+    height: 100%;
+    background: red;
+    float: left;
+    width:14.28%;
+    font-family: Times;
+    font-size: 35px;
+    text-align: center;
+    line-height: 140%; 
+}
+.eighth{
+    display: block;
+    height: 100%;
+    background: blue;
+    float: left;
+    width:14.28%;
+    font-family: Times;
+    font-size: 35px;
+    text-align: center;
+    line-height: 140%; 
+}
+
+.firstb{
+    float:left;
+    height: 60px;
+    width: 14.28%;
+    background: blue;
+}
+.twob{
+    float:left;
+    height: 60px;
+    width: 14.28%;
+    background: black;
+}
+.threeb{
+    float:left;
+    height: 60px;
+    width: 14.28%;
+    background: magenta;
+}
+.fourb{
+    float:left;
+    height: 60px;
+    width: 14.28%;
+    background: black;
+}
+.fiveb{
+    float:left;
+    height: 60px;
+    width: 14.28%;
+    background: aqua;
+}
+.sixb{
+    float:left;
+    height: 60px;
+    width: 14.28%;
+    background: black;
+}
+.sevenb{
+    float:left;
+    height: 60px;
+    width: 14.28%;
+    background: white;
+}
