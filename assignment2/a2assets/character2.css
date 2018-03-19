@@ -1,0 +1,293 @@
+/*
+
+CSS DRAWINGS s2018
+
+* * * * * * * * * * * * * * * * * *
+
+Full CSS Reset
+
+http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*
+  ========================================
+  Box model reset
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+.canvas {
+    display: block;
+    position: relative;
+    background-color: rgb(240,240,240);
+    border: solid 20px rgb(245,245,245);
+    box-shadow: 15px 15px 25px rgba(230, 222, 159, 0.78);
+    margin: 60px auto;
+    padding: 20px;
+    width: 900px;
+    height: 600px;
+}
+
+/*
+  ========================================
+  General
+  ========================================
+*/
+
+body{
+    background-color: #F1FFEA;
+}
+
+/*
+    ======================================
+    ======================================
+*/
+
+.flowermiddle {
+    position: absolute;
+    left: 32%;
+    width: 34%;
+    height: 50%;
+    top: 24%;
+    background: #FFEEB7;
+    border-radius: 100%;
+    z-index: 2;
+}
+.petalone {
+    position: absolute;
+    left: 34%;
+    width: 30%;
+    height: 45%;
+    top: 1%;
+    background: #D1F6BF;
+    border-radius: 100%;
+    z-index: 1;
+}
+.petaltwo {
+    position: absolute;
+    left: 50%;
+    width: 30%;
+    height: 45%;
+    top: 13%;
+    background: #D1F6BF;
+    border-radius: 100%;
+    z-index: 1;
+}
+.petalthree {
+    position: absolute;
+    left: 50%;
+    width: 30%;
+    height: 45%;
+    top: 38%;
+    background: #D1F6BF;
+    border-radius: 100%;
+    z-index: 1;
+}
+.petalfour {
+    position: absolute;
+    left: 34%;
+    width: 30%;
+    height: 45%;
+    top: 54%;
+    background: #D1F6BF;
+    border-radius: 100%;
+    z-index: 1;
+}
+.petalfive {
+    position: absolute;
+    left: 20%;
+    width: 30%;
+    height: 45%;
+    top: 13%;
+    background: #D1F6BF;
+    border-radius: 100%;
+    z-index: 1;
+}
+.petalsix {
+    position: absolute;
+    left: 20%;
+    width: 30%;
+    height: 45%;
+    top: 38%;
+    background: #D1F6BF;
+    border-radius: 100%;
+    z-index: 1;
+}
+.head { 
+    position: absolute;
+    width: 8%; 
+    height: 14%;
+    left: 45%; 
+    top: 50%; 
+    background: #582708; 
+    border-radius: 100%; 
+    z-index: 3; 
+} 
+
+.hat { 
+    position: absolute; 
+    width: 9%; 
+    height: 10%; 
+    left: 45%;
+    top: 47%; 
+    transform: rotate(10deg);
+    background: #E0C5F0;
+    border-radius: 40%; 
+    z-index: 4; 
+}
+.hatbrim { 
+    position: absolute; 
+    width: 10.5%; 
+    height: 4%; 
+    left: 44%;
+    top: 53%; 
+    transform: rotate(10deg);
+    background: #E0C5F0;
+    border-radius: 40%; 
+    z-index: 5; 
+}
+.hatband { 
+    position: absolute; 
+    width: 9.1%; 
+    height: 2%; 
+    left: 45%;
+    top: 52%; 
+    transform: rotate(10deg);
+    background: #491669;
+    border-radius: 10%; 
+    z-index: 5; 
+}
+
+.hair {
+    position: absolute; 
+    width: 5%; 
+    height: 11%; 
+    left: 49%;
+    top: 52%; 
+    transform: rotate(10deg);
+    background: black;
+    border-radius: 103%; 
+    z-index: 3; 
+}
+
+.dresscollar { 
+    position: absolute; 
+    width: 4%; 
+    height: 2%; 
+    left: 46.5%;
+    top: 63.5%; 
+    transform: rotate(4deg);
+    background: white;
+    border-radius: 15%; 
+    z-index: 4;
+}
+
+.dresstop {
+    position: absolute; 
+    width: 8%; 
+    height: 20%; 
+    left: 44%;
+    top: 65%; 
+    transform: rotate(4deg);
+    background: #E0C5F0;
+    border-radius: 30%; 
+    z-index: 4; 
+}
+
+.torso {
+    position: absolute; 
+    width: 7%; 
+    height: 14.7%; 
+    left: 43.4%;
+    top: 65.1%; 
+    transform: rotate(4deg);
+    background: #E0C5F0;
+    border-radius: 100%; 
+    z-index: 4; 
+}
+
+.dressbottom {
+    position: absolute;
+    width: 0; 
+    height: 0;
+    top: 74%;
+    left: 30%;
+    width: 0; 
+    height: 0; 
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 145px solid #E0C5F0;
+    z-index: 4;
+}
+
+.dressbelt { 
+    position: absolute; 
+    width: 8.2%; 
+    height: 2%; 
+    left: 43.7%;
+    top: 78%; 
+    background: #491669;
+    border-radius: 10%; 
+    z-index: 4;
+}
+
+

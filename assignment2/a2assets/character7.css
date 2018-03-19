@@ -1,0 +1,424 @@
+/*
+
+CSS DRAWINGS s2018
+
+* * * * * * * * * * * * * * * * * *
+
+Full CSS Reset
+
+http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*
+  ========================================
+  Box model reset
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+.canvas {
+    display: block;
+    position: relative;
+    background-color: rgb(240,240,240);
+    border: solid 20px rgb(245,245,245);
+    box-shadow: 15px 15px 25px #E2E2E2;
+    margin: 60px auto;
+    padding: 20px;
+    width: 900px;
+    height: 600px;
+}
+
+/*
+  ========================================
+  General
+  ========================================
+*/
+
+body{
+    background-color: #E2E2E2;
+}
+
+/*
+    ======================================
+    ======================================
+*/
+
+.headone { 
+    position: absolute;
+    width: 10%; 
+    height: 17%;
+    left: 10%; 
+    top: 33%; 
+    background: #C9C9C9; 
+    border-radius: 100%; 
+    z-index: 1; 
+} 
+
+.tone {
+    position: absolute; 
+    width: 14%; 
+    height: 35%; 
+    left: 8%;
+    top: 50%; 
+    background: #A0CCF7;
+    border-radius: 30%;
+    z-index: 3;
+}
+
+.collarone {
+    position: absolute; 
+    width: 6%; 
+    height: 2%; 
+    left: 12%;
+    top: 49%;
+    background: #A0CCF7;
+    border-radius: 15%; 
+    z-index: 4;
+}
+
+.tiecircone {
+    position: absolute; 
+    width: 2%; 
+    height: 2%; 
+    left: 14%;
+    top: 49%;
+    background: #262A3F;
+    border-radius: 90%; 
+    z-index: 5;
+}
+
+.tieshaftone {
+    position: absolute; 
+    width: 2%; 
+    height: 30%; 
+    left: 14%;
+    top: 50%; 
+    background: #262A3F;
+    border-radius: 30%;
+    z-index: 5; 
+}
+
+.pantsone {
+    position: absolute; 
+    width: 12.3%; 
+    height: 19%; 
+    left: 8.9%;
+    top: 81%; 
+    background: #262A3F;
+    border-radius: %;
+    z-index: 3;
+}
+
+.beltone {
+    position: absolute; 
+    width: 12.3%; 
+    height: 1.6%; 
+    left: 8.9%;
+    top: 80.6%; 
+    background: #A16806;
+    border-radius: 20%;
+    z-index: 4;
+}
+    
+
+/*===============================================
+=================================================
+*/
+
+.headtwo { 
+    position: absolute;
+    width: 10%; 
+    height: 17%;
+    left: 33%;  
+    top: 33%; 
+    background: #C9C9C9; 
+    border-radius: 100%; 
+    z-index: 1; 
+} 
+
+.ttwo {
+    position: absolute; 
+    width: 14%; 
+    height: 35%; 
+    left: 31%;
+    top: 50%; 
+    background: #A0CCF7;
+    border-radius: 30%;
+    z-index: 3;
+}
+
+.collartwo {
+    position: absolute; 
+    width: 6%; 
+    height: 2%; 
+    left: 35%;
+    top: 49%;
+    background: #A0CCF7;
+    border-radius: 15%; 
+    z-index: 4;
+}
+
+.tiecirctwo {
+    position: absolute; 
+    width: 2%; 
+    height: 2%; 
+    left: 37%;
+    top: 49%;
+    background: #262A3F;
+    border-radius: 90%; 
+    z-index: 5;
+}
+
+.tieshafttwo {
+    position: absolute; 
+    width: 2%; 
+    height: 30%; 
+    left: 37%;
+    top: 50%; 
+    background: #262A3F;
+    border-radius: 30%;
+    z-index: 5; 
+}
+
+.pantstwo {
+    position: absolute; 
+    width: 12.3%; 
+    height: 19%; 
+    left: 31.9%;
+    top: 81%; 
+    background: #262A3F;
+    border-radius: %;
+    z-index: 3;
+}
+
+.belttwo {
+    position: absolute; 
+    width: 12.3%; 
+    height: 1.6%; 
+    left: 31.9%;
+    top: 80.6%; 
+    background: #A16806;
+    border-radius: 20%;
+    z-index: 4;
+}
+    
+/*===============================================
+=================================================
+*/
+
+.headthree { 
+    position: absolute;
+    width: 10%; 
+    height: 17%;
+    left: 58%;  
+    top: 33%; 
+    background: #C9C9C9; 
+    border-radius: 100%; 
+    z-index: 1; 
+} 
+
+.tthree {
+    position: absolute; 
+    width: 14%; 
+    height: 35%; 
+    left: 56%;
+    top: 50%; 
+    background: #A0CCF7;
+    border-radius: 30%;
+    z-index: 3;
+}
+
+.collarthree {
+    position: absolute; 
+    width: 6%; 
+    height: 2%; 
+    left: 60%;
+    top: 49%;
+    background: #A0CCF7;
+    border-radius: 15%; 
+    z-index: 4;
+}
+
+.tiecircthree {
+    position: absolute; 
+    width: 2%; 
+    height: 2%; 
+    left: 62%;
+    top: 49%;
+    background: #262A3F;
+    border-radius: 90%; 
+    z-index: 5;
+}
+
+.tieshaftthree {
+    position: absolute; 
+    width: 2%; 
+    height: 30%; 
+    left: 62%;
+    top: 50%; 
+    background: #262A3F;
+    border-radius: 30%;
+    z-index: 5; 
+}
+
+.pantsthree {
+    position: absolute; 
+    width: 12.3%; 
+    height: 19%; 
+    left: 56.9%;
+    top: 81%; 
+    background: #262A3F;
+    border-radius: %;
+    z-index: 3;
+}
+
+.beltthree {
+    position: absolute; 
+    width: 12.3%; 
+    height: 1.6%; 
+    left: 56.9%;
+    top: 80.6%; 
+    background: #A16806;
+    border-radius: 20%;
+    z-index: 4;
+}
+    
+/*===============================================
+=================================================
+*/
+
+.headfour { 
+    position: absolute;
+    width: 10%; 
+    height: 17%;
+    left: 80%;  
+    top: 33%; 
+    background: #C9C9C9; 
+    border-radius: 100%; 
+    z-index: 1; 
+} 
+
+.tfour {
+    position: absolute; 
+    width: 14%; 
+    height: 35%; 
+    left: 78%;
+    top: 50%; 
+    background: #A0CCF7;
+    border-radius: 30%;
+    z-index: 3;
+}
+
+.collarfour {
+    position: absolute; 
+    width: 6%; 
+    height: 2%; 
+    left: 82%;
+    top: 49%;
+    background: #A0CCF7;
+    border-radius: 15%; 
+    z-index: 4;
+}
+
+.tiecircfour {
+    position: absolute; 
+    width: 2%; 
+    height: 2%; 
+    left: 84%;
+    top: 49%;
+    background: #262A3F;
+    border-radius: 90%; 
+    z-index: 5;
+}
+
+.tieshaftfour {
+    position: absolute; 
+    width: 2%; 
+    height: 30%; 
+    left: 84%;
+    top: 50%; 
+    background: #262A3F;
+    border-radius: 30%;
+    z-index: 5; 
+}
+
+.pantsfour {
+    position: absolute; 
+    width: 12.3%; 
+    height: 19%; 
+    left: 78.9%;
+    top: 81%; 
+    background: #262A3F;
+    border-radius: %;
+    z-index: 3;
+}
+
+.beltfour {
+    position: absolute; 
+    width: 12.3%; 
+    height: 1.6%; 
+    left: 78.9%;
+    top: 80.6%; 
+    background: #A16806;
+    border-radius: 20%;
+    z-index: 4;
+}

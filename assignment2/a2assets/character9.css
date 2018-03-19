@@ -1,0 +1,289 @@
+/*
+
+CSS DRAWINGS s2018
+
+* * * * * * * * * * * * * * * * * *
+
+Full CSS Reset
+
+http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*
+  ========================================
+  Box model reset
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+.canvas {
+    display: block;
+    position: relative;
+    background-color: rgb(240,240,240);
+    border: solid 20px rgb(245,245,245);
+    box-shadow: 15px 15px 25px #043810;
+    margin: 60px auto;
+    padding: 20px;
+    width: 900px;
+    height: 600px;
+}
+
+/*
+  ========================================
+  General
+  ========================================
+*/
+
+body{
+    background-color: #043810;
+}
+
+/*
+    ======================================
+    ======================================
+*/
+
+.head {
+    position: absolute;
+    left: 20%;
+    width: 30%;
+    height: 45%;
+    top: 10%;
+    background: #212121;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+.face{
+    position: absolute;
+    left: 20%;
+    width: 17%;
+    height: 30%;
+    top: 20%;
+    transform: rotate(170deg);
+    background: white;
+    border-radius: 100%;
+    z-index: 2;
+}
+
+.eyeleft{
+    position: absolute;
+    left: 22%;
+    width: 2%;
+    height: 3%;
+    top: 39%;
+    background: black;
+    border-radius: 100%;
+    z-index: 4;
+}
+.eyepupleft{
+    position: absolute;
+    left: 22.1%;
+    width: 1.5%;
+    height: 2.4%;
+    top: 39.4%;
+    background: white;
+    border-radius: 100%;
+    z-index: 4;
+}
+.eyeright {
+    position: absolute;
+    left: 27%;
+    width: 2%;
+    height: 3%;
+    top: 39%;
+    background: black;
+    border-radius: 100%;
+    z-index: 4;
+}
+.eyepupright {
+    position: absolute;
+    left: 27.4%;
+    width: 1.5%;
+    height: 2.4%;
+    top: 39.4%;
+    background: white;
+    border-radius: 100%;
+    z-index: 4;
+}
+.bodyone {
+    position: absolute;
+    left: 25%;
+    width: 30%;
+    height: 45%;
+    top: 13%;
+    background: #212121;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.bodytwo {
+    position: absolute;
+    left: 27%;
+    width: 30%;
+    height: 45%;
+    top: 20%;
+    background: #212121;
+    border-radius: 50%;
+    z-index: 1;
+}
+.bodythree {
+    position: absolute;
+    left: 33%;
+    width: 30%;
+    height: 45%;
+    top: 20%;
+    background: #212121;
+    border-radius: 50%;
+    z-index: 1;
+}
+.bodyfour {
+    position: absolute;
+    left: 33%;
+    width: 38%;
+    height: 80%;
+    top: 20%;
+    transform: rotate(176deg);
+    background: #212121;
+    border-radius: 50%;
+    z-index: 1;
+}
+.bodyfive {
+    position: absolute;
+    left: 47%;
+    width: 30%;
+    height: 45%;
+    top: 55%;
+    background: #212121;
+    border-radius: 50%;
+    z-index: 1;
+}
+.frontupperarm {
+    position: absolute; 
+    height: 4%;
+    width: 20%;
+    left: 26%;
+    top: 60%;
+    transform: rotate(10deg);
+    background: #282828;
+    border-radius: 20%;
+    z-index: 4;
+}
+.frontlowerarm {
+    position: absolute; 
+    height: 4%;
+    width: 10%;
+    left: 19%;
+    top: 62%;
+    transform: rotate(138deg);
+    background: #282828;
+    border-radius: 20%;
+    z-index: 4;
+}
+.clawfront {
+    position: absolute;
+    width: 0; 
+    height: 0;
+    top: 68%;
+    left: 19.8%;
+    width: 0; 
+    height: 0; 
+    border-left: 18px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 91px solid #282828;
+    z-index: 3;
+}
+.backupperarm {
+    position: absolute; 
+    height: 3%;
+    width: 20%;
+    left: 25%;
+    top: 56%;
+    transform: rotate(10deg);
+    background: #1E1E1E;
+    border-radius: 20%;
+    z-index: 0;
+}
+.backlowerarm {
+    position: absolute; 
+    height: 2.7%;
+    width: 9%;
+    left: 17.6%;
+    top: 57%;
+    transform: rotate(150deg);
+    background: #1E1E1E;
+    border-radius: 20%;
+    z-index: 0;
+}
+.clawback {
+    position: absolute;
+    width: 0; 
+    height: 0;
+    top: 61%;
+    left: 18%;
+    width: 0; 
+    height: 0; 
+    border-left: 12px solid transparent;
+    border-right: 2px solid transparent;
+    border-top: 85px solid #1E1E1E;
+    z-index: 0;
+}

@@ -70,34 +70,19 @@ table {
 }
 
 /*
-  ========================================
-  Grid
-  ========================================
+    ========================================
+    Grid
+    ============================================
 */
 
-.canvas {
-    display: block;
-    position: relative;
-    background-color: rgb(240,240,240);
-    border: solid 20px rgb(245,245,245);
-    box-shadow: 15px 15px 25px rgba(230, 222, 159, 0.78);
-    margin: 60px auto;
-    padding: 20px;
-    width: 900px;
-    height: 600px;
+.h1 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
 }
 
-/*
-  ========================================
-  General
-  ========================================
-*/
-
-body{
-    background-color: rgb(255, 248, 224);
+.div {
+    width: 50%;
+    margin: auto;
+    text-align: center;
 }
-
-
-
-
-
